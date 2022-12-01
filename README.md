@@ -117,4 +117,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 ■npm run start执行之前需要更改package.json文件内容，如下。
-"start": "react-scripts --openssl-legacy-provider start"
+step1 npm install --save-dev run-script-os
+step2 "start": "react-scripts --openssl-legacy-provider start"
