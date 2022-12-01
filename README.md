@@ -115,3 +115,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+■npm run start执行之前需要更改package.json文件内容，如下。
+"start": "react-scripts --openssl-legacy-provider start"
